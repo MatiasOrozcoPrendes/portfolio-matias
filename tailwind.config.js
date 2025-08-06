@@ -1,6 +1,7 @@
 import defaultTheme from 'tailwindcss/defaultTheme';
 import forms from '@tailwindcss/forms';
 import typography from '@tailwindcss/typography';
+import animate from 'tailwindcss-animate';
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -11,6 +12,8 @@ export default {
         './resources/views/**/*.blade.php',
     ],
 
+    darkMode: 'class',
+    
     theme: {
         extend: {
             fontFamily: {
@@ -19,5 +22,5 @@ export default {
         },
     },
 
-    plugins: [forms, typography],
+    plugins: [animate, forms, typography ],
 };

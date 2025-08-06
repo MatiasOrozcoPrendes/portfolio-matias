@@ -1,17 +1,16 @@
 <x-app-layout>
-    @include('banner')
+    <x-rock-banner />
 
     @include('about')
 
-    @include('experience')
-
-    @include('education')
+    <x-experience-section />
 
     @include('skills')
+
+    @include('education')
 
     @include('projects')
 
     @include('contact')
-
 
 </x-app-layout>

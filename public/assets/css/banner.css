@@ -1,0 +1,50 @@
+
+#banner {
+  background: linear-gradient(to bottom, #111, #000);
+  position: relative;
+  font-family: 'Lato', sans-serif;
+  overflow: hidden;
+}
+
+#banner h1 {
+  margin-top: 100px;
+  font-size: 3rem;
+  font-weight: 100;
+  line-height: 1.5em;
+  text-align: right;
+  color: #f2f2f2;
+  z-index: 10;
+  position: relative;
+}
+
+#banner-scene {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.star, .cloud, .shippy {
+  position: absolute;
+  display: block;
+}
+
+.star {
+  background: white;
+  border-radius: 2px;
+  width: 2px;
+  height: 2px;
+}
+
+.cloud {
+  background: white;
+  border-radius: 40px;
+  opacity: 0.5;
+}
+
+.shippy {
+  background: url('/assets/images/rocket.png') no-repeat center center;
+  width: 220px;
+  height: 80px;
+  background-size: contain;
+  z-index: 2;
+}
