@@ -24,15 +24,6 @@
                 <a href="https://inmobiliariajosealepropiedades.com" target="_blank" class="text-indigo-600 hover:underline">Visitar sitio</a>
             </div>
 
-            <!-- Proyecto: Máquina Arcade -->
-            <div class="bg-white rounded-lg shadow p-6">
-                <h3 class="text-xl font-semibold text-indigo-700 mb-2">Máquina Arcade Multiplataforma</h3>
-                <p class="text-gray-700 mb-4">
-                    Proyecto personal de largo plazo. Construcción de gabinete arcade con hardware personalizado,
-                    PC con interfaces USB para controles, sistema RetroArch + EmulationStation y automatización de gestión de ROMs.
-                </p>
-                <!-- No hay link -->
-            </div>
         </div>
     </div>
 </section>
